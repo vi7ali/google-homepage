@@ -1,0 +1,80 @@
+body, a, p {
+	font-family: arial, sans-serif;
+	font-size: small;
+	text-decoration: none;
+}
+
+.content {
+	width: 550px;
+	margin: 80px auto 0 auto;
+	text-align: center;
+}
+
+.form-container {
+	width : 450px;
+	margin: 15px auto;
+
+}
+
+#query {
+	line-height: 34px;
+	height: 34px;
+	font-size: 16px;
+	width: 400px;
+}
+
+.button {
+	margin: 25px 5px;
+  height: 36px;
+  padding: 1px 8px;
+  background-color: #ededed;
+  border-color: transparent;
+  color: #565656;
+  font-weight: bold;
+  border-radius: 2px;
+}
+
+nav {
+	margin-top: 20px;
+	text-align: right;
+	height: 30px;
+	padding-right: 30px;
+}
+
+ul.top-nav li {
+	vertical-align: middle;
+	margin: auto 0;
+	display: inline-block;
+	padding-left: 15px;
+}
+
+.i-apps, .i-notif, .i-gplus {	
+	width: 30px;
+	height: 30px;
+	padding-left: 15px;
+}
+
+ul.foot-nav {
+	width: 100%;
+	position: absolute;
+	margin:0;
+	bottom: 0px;
+	height: 41px;
+	background-color: #ededed;
+	color: #565656;
+	padding-inline-start: 10px;
+}
+
+ul.foot-nav li {
+	display: inline-block;
+	line-height: 41px;
+	vertical-align: middle;
+	margin: auto 10px auto 10px;
+
+}
+
+li.p-right {
+	position: relative;
+	float: right;
+	margin-right: 10px;
+}
