@@ -4,6 +4,10 @@ body, a, p {
 	text-decoration: none;
 }
 
+a:hover {
+	text-decoration: underline;
+}
+
 .content {
 	width: 550px;
 	margin: 80px auto 0 auto;
@@ -11,7 +15,7 @@ body, a, p {
 }
 
 .form-container {
-	width : 450px;
+	width : 500px;
 	margin: 15px auto;
 
 }
@@ -20,7 +24,7 @@ body, a, p {
 	line-height: 34px;
 	height: 34px;
 	font-size: 16px;
-	width: 400px;
+	width: 95%;
 }
 
 .button {
@@ -54,27 +58,30 @@ ul.top-nav li {
 	padding-left: 15px;
 }
 
+footer {
+	width: 100%;
+}
+
 ul.foot-nav {
+	padding: 0;
+	margin:0;
 	width: 100%;
 	position: absolute;
-	margin:0;
 	bottom: 0px;
 	height: 41px;
 	background-color: #ededed;
 	color: #565656;
-	padding-inline-start: 10px;
 }
 
 ul.foot-nav li {
 	display: inline-block;
 	line-height: 41px;
 	vertical-align: middle;
-	margin: auto 10px auto 10px;
+	margin: auto 15px auto 15px;
 
 }
 
 li.p-right {
 	position: relative;
 	float: right;
-	margin-right: 10px;
 }
