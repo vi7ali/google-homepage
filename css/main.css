@@ -2,10 +2,20 @@ body, a, p {
 	font-family: arial, sans-serif;
 	font-size: small;
 	text-decoration: none;
+	color: #565656;
 }
 
 a:hover {
 	text-decoration: underline;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #565656;
+}
+
+#lang, #lang:visited {
+	color: blue;
 }
 
 .content {
